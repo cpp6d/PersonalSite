@@ -1,3 +1,10 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+const siteContainer = () => {
+    return (
+        <div className='landingContainer'>
+            <div className='welcome'>Welcome to Chris Phan's personal site</div>
+        </div>
+    )
+}
+export default siteContainer 
