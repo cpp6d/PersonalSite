@@ -1,0 +1,27 @@
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.landingContainer {
+    width: 100vw;
+	height: 100vh;
+	display: flex;
+	background-color: black;
+}
+
+.welcome {
+	font: bold 300% Consolas, Monaco, monospace;
+	border-right: .1em solid #4AF626;
+	width: 16.5em; 
+	width: 37ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 2s steps(21, end),
+		blink-caret .5s step-end infinite alternate;
+	margin: auto;
+	color: #4AF626;
+}
+
+body{
+	margin: 0;
+}
