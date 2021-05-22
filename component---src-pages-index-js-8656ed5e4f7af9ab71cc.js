@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{135:function(e,n,a){"use strict";a.r(n);var s=a(0),t=a.n(s);n.default=function(){return t.a.createElement("div",{className:"landingContainer"},t.a.createElement("div",{className:"welcome"},"Welcome to Chris Phan's personal site"))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-8656ed5e4f7af9ab71cc.js.map
